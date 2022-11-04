@@ -1,0 +1,488 @@
+#wrap {
+  width: 100%;
+}
+
+/* ------------------------HEADER------------------------------------------------------------------- */
+header {
+  width: 100%;
+  height: 145px;
+}
+
+#header_in {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+#header_in>div {
+  width: 1201px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#header_in .logo {
+  float: left;
+  margin-top: 25px;
+}
+
+#header_in .menu {
+  float: right;
+  margin-top: 25px;
+}
+
+#header_in .menu li {
+  float: left;
+}
+
+#nav_bar {
+  width: 1201px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+#nav_bar .nav {
+  float: left;
+}
+
+#nav_bar .nav li {
+  float: left;
+  margin-right: 60px;
+  line-height: 45px;
+}
+
+#nav_bar .nav li:last-child {
+  margin-right: 0;
+}
+
+#nav_bar .nav li a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #555;
+}
+
+#nav_bar .nav li:hover a {
+  color: #1765a1;
+}
+
+#nav_bar .num {
+  float: right;
+  font-size: 20px;
+  font-weight: 900;
+  color: #1765a1;
+  line-height: 45px;
+}
+
+/* ------------------------MAIN_IMG------------------------------------------------------------------- */
+
+#main_img {
+  width: 100%;
+  height: 660px;
+  background-color: #000;
+  position: relative;
+  opacity: 0.9;
+}
+
+#main_img::after {
+  width: 100%;
+  height: 660px;
+  content: "";
+  background: url(../images/main_img.jpg) no-repeat center 0;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#main_img .ttl {
+  padding-top: 245px;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+}
+
+#main_img>div {
+  width: 366px;
+  height: 39px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+#main_img .btn {
+  width: 170px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+#main_img .btn:last-child {
+  margin-right: 0;
+}
+
+#main_img .btn:hover {
+  background-color: #fff;
+  color: #1765a1;
+}
+
+/* ------------------------CONTENTS------------------------------------------------------------------- */
+
+#contents {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ------------------------MAIN_ICON------------------------------------------------------------------- */
+
+#main_icon {
+  width: 100%;
+  height: 96px;
+}
+
+#main_icon .m_icon {
+  width: 1201px;
+  height: 96px;
+  margin: 0 auto;
+}
+
+/* ------------------------MAIN_B------------------------------------------------------------------- */
+
+#main_b {
+  width: 100%;
+  height: 315px;
+  margin-bottom: 3px;
+}
+
+#main_b .project {
+  float: left;
+  width: 44.7%;
+  height: 315px;
+  background-color: #1765a1;
+}
+
+#main_b .pro_b {
+  float: right;
+  margin-right: 25px;
+  width: 440px;
+  height: 315px;
+}
+
+#main_b .pro_b>div {
+  width: 440px;
+  height: 92px;
+  margin-bottom: 25px;
+}
+
+#main_b .pro_b .p_ttl {
+  float: left;
+  margin-top: 30px;
+  width: 414px;
+  height: 60px;
+}
+
+#main_b .pro_b .ttl {
+  font-size: 16px;
+  color: #fff;
+}
+
+#main_b .pro_b .sub_ttl {
+  font-size: 30px;
+  color: #fff;
+}
+
+#main_b .pro_b .btn {
+  float: right;
+  margin-top: 40px;
+  width: 26px;
+  height: 52px;
+}
+
+#main_b .pro_b .btn a img {
+  display: block;
+}
+
+#main_b .pro_b .menu {
+  clear: both;
+  width: 440px;
+  height: 160px;
+}
+
+#main_b .pro_b .menu li {
+  width: 440px;
+  height: 13px;
+  margin-bottom: 20px;
+}
+
+#main_b .pro_b .menu li:last-child {
+  margin-bottom: 0;
+}
+
+#main_b .pro_b .menu li .txt {
+  float: left;
+  font-size: 13px;
+  color: #fff;
+}
+
+#main_b .pro_b .menu li .date {
+  float: right;
+  font-size: 13px;
+  color: #fff;
+}
+
+#main_b .advantage {
+  float: left;
+  width: 55.3%;
+  height: 315px;
+}
+
+#main_b .advantage li {
+  float: left;
+  width: 25%;
+  height: 315px;
+  border-right: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#main_b .advantage li:hover .ttl {
+  color: #1765a1;
+}
+
+#main_b .advantage .ttl {
+  padding-top: 35px;
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+#main_b .advantage .txt {
+  margin: 15px 0 45px 25px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #666d88;
+}
+
+#main_b .advantage .btn {
+  margin-left: 25px;
+  font-size: 13px;
+  color: #1765a1;
+}
+
+#main_b .advantage .btn:after {
+  content: ">>";
+  font-size: 10px;
+  color: #1765a1;
+}
+
+#main_b .advantage .num {
+  font-size: 200px;
+  font-weight: 700;
+  position: absolute;
+  bottom: -50px;
+  right: -40px;
+  color: #f2f2f2;
+  z-index: -1;
+}
+
+#main_b .advantage li:last-child {
+  border-right: 0;
+}
+
+/* ------------------------WEBSITE------------------------------------------------------------------- */
+
+#website {
+  width: 100%;
+}
+
+#website .web {
+  width: 100%;
+}
+
+#website .web li {
+  float: left;
+  width: 25%;
+  height: auto;
+  position: relative;
+}
+
+#website .web li img {
+  width: 100%;
+  height: auto;
+}
+
+#website .web li .web_b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #000;
+  opacity: 0;
+}
+
+#website .web li .web_b .ttl {
+  margin-top: 5vw;
+  font-size: 1.56vw;
+  color: #fff;
+}
+
+#website .web li .web_b .txt {
+  margin-top: 1vw;
+  font-size: 0.95vw;
+  color: #fff;
+}
+
+#website .web li .web_b .btn {
+  margin-top: 1vw;
+  width: 6.25vw;
+  height: 1.56vw;
+  font-size: 0.8vw;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+#website .web li .web_b .btn:hover {
+  background-color: #fff;
+  color: #1765a1;
+}
+
+#website .web li:hover .web_b {
+  transition: 0.7s;
+  opacity: 0.8;
+}
+
+#website .web li:hover img {
+  transition: 0.7s;
+  opacity: 0.5;
+}
+
+/* ------------------------FOOTER------------------------------------------------------------------- */
+
+footer {
+  width: 100%;
+  height: 295px;
+}
+
+#f_top {
+  width: 100%;
+  height: 230px;
+  background-color: #222;
+}
+
+#f_top .mfoot {
+  width: 1201px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+#f_top .mfoot>li {
+  float: left;
+  width: 400px;
+  height: 230px;
+}
+
+#f_top .mfoot .center {
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+
+#f_top .mfoot .center .ttl {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+#f_top .mfoot .center .num {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+#f_top .mfoot .center .mail {
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+#f_top .mfoot .center .txt {
+  font-size: 15px;
+  color: #fff;
+}
+
+#f_top .mfoot .bar {
+  width: 1px;
+  height: 145px;
+  margin: 42.5px 0;
+  background-color: #555;
+}
+
+#f_top .mfoot .call {
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+
+#f_top .mfoot .call .ttl {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+#f_top .mfoot .call .call_num li {
+  clear: both;
+}
+
+#f_top .mfoot .call .call_num .num {
+  float: left;
+  font-size: 13px;
+  color: #fff;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+#f_top .mfoot .call .call_num .txt {
+  float: left;
+  font-size: 13px;
+  color: #ccc;
+}
+
+#adress {
+  width: 100%;
+  height: 65px;
+  background-color: #151515;
+  position: relative;
+}
+
+#adress>p {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+#adress>div {
+  width: 1201px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+#adress .f_adress {
+  float: left;
+  padding-top: 40px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+#adress .personal {
+  float: right;
+  padding-top: 40px;
+  font-size: 12px;
+  color: #ccc;
+}
