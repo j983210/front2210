@@ -14,8 +14,8 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-#header_in>div {
-  width: 62.6vw;
+#header_in > div {
+  width: 1201px;
   height: 100px;
   margin: 0 auto;
 }
@@ -35,7 +35,7 @@ header {
 }
 
 #nav_bar {
-  width: 62.6vw;
+  width: 1201px;
   height: 45px;
   margin: 0 auto;
 }
@@ -102,7 +102,7 @@ header {
   color: #fff;
 }
 
-#main_img>div {
+#main_img > div {
   width: 366px;
   height: 39px;
   margin: 0 auto;
@@ -172,7 +172,7 @@ header {
   height: 315px;
 }
 
-#main_b .pro_b>div {
+#main_b .pro_b > div {
   width: 440px;
   height: 92px;
   margin-bottom: 25px;
@@ -382,7 +382,7 @@ footer {
   margin: 0 auto;
 }
 
-#f_top .mfoot>li {
+#f_top .mfoot > li {
   float: left;
   width: 400px;
   height: 230px;
@@ -461,13 +461,13 @@ footer {
   position: relative;
 }
 
-#adress>p {
+#adress > p {
   position: absolute;
   top: 10px;
   right: 0;
 }
 
-#adress>div {
+#adress > div {
   width: 1201px;
   height: 65px;
   margin: 0 auto;
