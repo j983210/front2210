@@ -1,137 +1,51 @@
-#wrap {
-  width: 100%;
-}
-
-/* ------------------------HEADER------------------------------------------------------------------- */
 header {
   width: 100%;
-  height: 145px;
+  height: 34px;
 }
 
 #header_in {
   width: 100%;
-  height: 100px;
+  height: 34px;
   border-bottom: 1px solid #ccc;
 }
 
 #header_in > div {
-  width: 1201px;
-  height: 100px;
+  width: 100%;
+  height: 34px;
   margin: 0 auto;
+  position: relative;
 }
 
 #header_in .logo {
-  float: left;
-  margin-top: 25px;
-}
-
-#header_in .logo_m {
   display: none;
 }
 
-#header_in .menu {
-  float: right;
-  margin-top: 25px;
-}
-
-#header_in .menu li {
-  float: left;
-}
-
-#nav_bar {
-  width: 1201px;
-  height: 45px;
+#header_in .logo_m {
+  display: block;
+  width: 180px;
+  height: 34px;
   margin: 0 auto;
 }
 
+#header_in .menu {
+  display: none;
+}
+
+#nav_bar {
+  display: none;
+}
+
 #nav_bar .nav {
-  float: left;
-}
-
-#nav_bar .nav li {
-  float: left;
-  margin-right: 60px;
-  line-height: 45px;
-}
-
-#nav_bar .nav li:last-child {
-  margin-right: 0;
-}
-
-#nav_bar .nav li a {
-  font-size: 16px;
-  font-weight: 700;
-  color: #555;
-}
-
-#nav_bar .nav li:hover a {
-  color: #1765a1;
-}
-
-#nav_bar .num {
-  float: right;
-  font-size: 20px;
-  font-weight: 900;
-  color: #1765a1;
-  line-height: 45px;
+  display: none;
 }
 
 /* ------------------------MAIN_IMG------------------------------------------------------------------- */
 
-#main_img {
-  width: 100%;
-  height: 660px;
-  background-color: #000;
-  position: relative;
-  opacity: 0.9;
-}
-
-#main_img::after {
-  width: 100%;
-  height: 660px;
-  content: "";
-  background: url(../images/main_img.jpg) no-repeat center 0;
-  background-size: cover;
-  opacity: 0.2;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
 #main_img .ttl {
   padding-top: 245px;
-  font-size: 55px;
+  font-size: 40px;
   text-align: center;
   color: #fff;
-}
-
-#main_img > div {
-  width: 366px;
-  height: 39px;
-  margin: 0 auto;
-  margin-top: 35px;
-}
-
-#main_img .btn {
-  width: 170px;
-  height: 35px;
-  font-size: 15px;
-  font-weight: 900;
-  text-align: center;
-  border: 2px solid #fff;
-  color: #fff;
-  margin-right: 20px;
-  background-color: transparent;
-}
-
-#main_img .btn:last-child {
-  margin-right: 0;
-}
-
-#main_img .btn:hover {
-  background-color: #fff;
-  color: #1765a1;
 }
 
 /* ------------------------CONTENTS------------------------------------------------------------------- */
@@ -145,17 +59,23 @@ header {
 
 #main_icon {
   width: 100%;
-  height: 96px;
+  height: 140px;
 }
 
 #main_icon .m_icon {
-  width: 1201px;
-  height: 96px;
+  width: 100%;
+  height: 140px;
   margin: 0 auto;
 }
 
-#main_icon .m_icon .icon_m {
+#main_icon .m_icon .icon {
   display: none;
+}
+
+#main_icon .m_icon .icon_m {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /* ------------------------MAIN_B------------------------------------------------------------------- */
@@ -167,117 +87,102 @@ header {
 }
 
 #main_b .project {
-  float: left;
-  width: 44.7%;
-  height: 315px;
+  float: none;
+  width: 100%;
+  height: 170px;
   background-color: #1765a1;
 }
 
 #main_b .pro_b {
-  float: right;
-  margin-right: 25px;
-  width: 440px;
-  height: 315px;
+  float: none;
+  margin: 0 auto;
+  width: 90%;
+  height: 110px;
+  padding-top: 15px;
 }
 
 #main_b .pro_b > div {
-  width: 440px;
-  height: 92px;
-  margin-bottom: 25px;
+  width: 100%;
+  height: 27px;
+  margin-bottom: 12px;
 }
 
 #main_b .pro_b .p_ttl {
   float: left;
-  margin-top: 30px;
-  width: 414px;
-  height: 60px;
+  margin-top: 0px;
+  width: 94%;
+  height: 27px;
+  line-height: 15px;
 }
 
-#main_b .pro_b .ttl {
-  font-size: 16px;
+#main_b .pro_b .p_ttl .ttl {
+  font-size: 7px;
   color: #fff;
 }
 
-#main_b .pro_b .sub_ttl {
-  font-size: 30px;
+#main_b .pro_b .p_ttl .sub_ttl {
+  font-size: 18px;
   color: #fff;
 }
 
 #main_b .pro_b .btn {
   float: right;
-  margin-top: 40px;
-  width: 26px;
-  height: 52px;
+  margin-top: 0px;
+  width: 13px;
+  height: 26px;
 }
 
 #main_b .pro_b .btn a img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 #main_b .pro_b .menu {
   clear: both;
-  width: 440px;
+  width: 100%;
   height: 160px;
 }
 
 #main_b .pro_b .menu li {
-  width: 440px;
+  width: 100%;
   height: 13px;
-  margin-bottom: 20px;
-}
-
-#main_b .pro_b .menu li:last-child {
-  margin-bottom: 0;
-}
-
-#main_b .pro_b .menu li .txt {
-  float: left;
-  font-size: 13px;
-  color: #fff;
-}
-
-#main_b .pro_b .menu li .date {
-  float: right;
-  font-size: 13px;
-  color: #fff;
+  margin-bottom: 8px;
 }
 
 #main_b .advantage {
-  float: left;
-  width: 55.3%;
-  height: 315px;
+  float: none;
+  width: 100%;
+  height: 150px;
 }
 
 #main_b .advantage li {
   float: left;
   width: 25%;
-  height: 315px;
+  height: 150px;
   border-right: 1px solid #ccc;
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
 }
 
-#main_b .advantage li:hover .ttl {
-  color: #1765a1;
-}
-
 #main_b .advantage .ttl {
-  padding-top: 35px;
-  margin-left: 25px;
-  font-size: 30px;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #000;
 }
 
 #main_b .advantage .txt {
-  margin: 15px 0 45px 25px;
-  font-size: 13px;
-  font-weight: 700;
+  margin: 3px 0 22px 10px;
+  font-size: 10px;
+  font-weight: 200;
   color: #666d88;
 }
 
 #main_b .advantage .btn {
-  margin-left: 25px;
-  font-size: 13px;
+  margin-left: 10px;
+  font-size: 10px;
   color: #1765a1;
 }
 
@@ -288,11 +193,11 @@ header {
 }
 
 #main_b .advantage .num {
-  font-size: 200px;
+  font-size: 80px;
   font-weight: 700;
   position: absolute;
-  bottom: -50px;
-  right: -40px;
+  bottom: -20px;
+  right: -10px;
   color: #f2f2f2;
   z-index: -1;
 }
@@ -313,7 +218,7 @@ header {
 
 #website .web li {
   float: left;
-  width: 25%;
+  width: 50%;
   height: auto;
   position: relative;
 }
@@ -375,99 +280,100 @@ header {
 
 footer {
   width: 100%;
-  height: 295px;
+  height: 110px;
 }
 
 #f_top {
   width: 100%;
-  height: 230px;
+  height: 110px;
   background-color: #222;
 }
 
 #f_top .mfoot {
-  width: 1201px;
-  height: 230px;
+  width: 100%;
+  height: 110px;
   margin: 0 auto;
 }
 
 #f_top .mfoot > li {
   float: left;
-  width: 400px;
-  height: 230px;
+  width: 33%;
+  height: 110px;
 }
 
 #f_top .mfoot .center {
-  padding-left: 80px;
+  padding-left: 0px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
 #f_top .mfoot .center .m_center {
-  display: none;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 #f_top .mfoot .center .ttl {
-  font-size: 18px;
-  color: #fff;
-  padding-top: 35px;
-  padding-bottom: 20px;
+  display: none;
 }
 
 #f_top .mfoot .center .num {
-  font-size: 30px;
-  color: #fff;
-  padding-bottom: 15px;
+  display: none;
 }
 
 #f_top .mfoot .center .mail {
-  font-size: 15px;
-  color: #fff;
-  padding-bottom: 10px;
+  display: none;
 }
 
 #f_top .mfoot .center .txt {
-  font-size: 15px;
-  color: #fff;
+  display: none;
 }
 
 #f_top .mfoot .bar {
   width: 1px;
-  height: 145px;
-  margin: 42.5px 0;
+  height: 70px;
+  margin: 20px 0;
   background-color: #555;
 }
 
 #f_top .mfoot .call {
-  padding-left: 80px;
+  padding-left: 0px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
 #f_top .mfoot .call .m_call {
-  display: none;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 #f_top .mfoot .call .ttl {
-  font-size: 18px;
-  color: #fff;
-  padding-top: 35px;
-  padding-bottom: 20px;
+  display: none;
 }
 
 #f_top .mfoot .call .call_num li {
-  clear: both;
+  display: none;
 }
 
 #f_top .mfoot .call .call_num .num {
-  float: left;
-  font-size: 13px;
-  color: #fff;
-  padding-right: 10px;
-  margin-bottom: 10px;
+  display: none;
 }
 
 #f_top .mfoot .call .call_num .txt {
-  float: left;
-  font-size: 13px;
-  color: #ccc;
+  display: none;
+}
+
+#f_top .mfoot .go_btn {
+  display: flex;
+  align-items: center;
+}
+
+#f_top .mfoot .go_btn img {
+  width: 100%;
+  height: auto;
 }
 
 #adress {
@@ -478,27 +384,27 @@ footer {
 }
 
 #adress > p {
-  position: absolute;
-  top: 10px;
-  right: 0;
+  display: none;
 }
 
 #adress > div {
-  width: 1201px;
+  width: 100%;
   height: 65px;
   margin: 0 auto;
 }
 
 #adress .f_adress {
-  float: left;
-  padding-top: 40px;
-  font-size: 12px;
+  float: none;
+  padding-top: 10px;
+  font-size: 10px;
   color: #ccc;
+  text-align: center;
 }
 
 #adress .personal {
-  float: right;
-  padding-top: 40px;
-  font-size: 12px;
+  float: none;
+  padding-top: 5px;
+  font-size: 10px;
   color: #ccc;
+  text-align: center;
 }

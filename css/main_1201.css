@@ -1,0 +1,40 @@
+#header_in > div {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#nav_bar {
+  width: 100%;
+  height: 45px;
+  margin: 0 auto;
+}
+
+#main_icon .m_icon {
+  width: 100%;
+  height: 96px;
+  margin: 0 auto;
+}
+#f_top .mfoot {
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+}
+#f_top .mfoot > li {
+  float: left;
+  width: 33.3%;
+  height: 230px;
+}
+#f_top .mfoot .go_btn {
+  display: flex;
+  align-items: center;
+}
+#f_top .mfoot .go_btn img {
+  width: 100%;
+  height: auto;
+}
+#adress > div {
+  width: 100%;
+  height: 65px;
+  margin: 0 auto;
+}
