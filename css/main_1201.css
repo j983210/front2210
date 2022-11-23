@@ -10,6 +10,12 @@
   margin: 0 auto;
 }
 
+#nav_bar .under_nav .nav_b {
+  width: 100%;
+  height: 260px;
+  margin: 0 auto;
+}
+
 #main_icon .m_icon {
   width: 100%;
   height: 96px;
